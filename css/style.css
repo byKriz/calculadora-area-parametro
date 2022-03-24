@@ -71,6 +71,7 @@ h1 {
 
 .main .calculadora-container .input-datos .input-element {
     width: 80%;
+    text-align: center;
 }
 
 .main .calculadora-container .input-datos .buttons-container .resultado-button {
