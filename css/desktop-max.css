@@ -1,0 +1,9 @@
+.main .box1, .main .box2{
+    width: 40%;
+    order: 1;
+}
+
+.main .box3{
+    width: 81%;
+    order: 2;
+}

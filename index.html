@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" media="(min-width: 600px)" href="./css/tablet.css" />
+        <link rel="stylesheet" media="(min-width: 800px)" href="./css/desktop-min.css" />
+        <link rel="stylesheet" media="(min-width: 1000px)" href="./css/desktop-max.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+            rel="stylesheet"
+        />
+        <title>Calculadora Perimetro y Area</title>
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="title-page">Calculadora de Perimetro y Area</h1>
+        </header>
+        <main class="main">
+            <section class="calculadora-cuadrado calculadora-container box1">
+                <h2 class="title-caculadora">Calculadora Cuadrado1</h2>
+                <form action="" method="post">
+                    <label for="lado-cuadrado" class="input-datos">
+                        <span>Lado en cm:</span>
+                        <input
+                            type="number"
+                            name="lado"
+                            id="lado-cuadrado"
+                            class="input-element"
+                            placeholder="Ingrese el lado"
+                        />
+                        <div class="buttons-container">
+                            <button
+                                type="button"
+                                onclick="cacularPerimetroCuadrado()"
+                                class="resultado-button"
+                            >
+                                <span>Perimetro</span>
+                            </button>
+                            <button
+                                type="button"
+                                onclick="cacularAreaCuadrado()"
+                                class="resultado-button"
+                            >
+                                <span>Area</span>
+                            </button>
+                        </div>
+                    </label>
+                </form>
+                <p class="resultado" id="resultado-cuadrado"></p>
+            </section>
+            <section class="calculadora-cuadrado calculadora-container box2">
+                <h2 class="title-caculadora">Calculadora Cuadrado2</h2>
+                <form action="" method="post">
+                    <label for="lado-cuadrado" class="input-datos">
+                        <span>Lado en cm:</span>
+                        <input
+                            type="number"
+                            name="lado"
+                            id="lado-cuadrado"
+                            class="input-element"
+                            placeholder="Ingrese el lado"
+                        />
+                        <div class="buttons-container">
+                            <button
+                                type="button"
+                                onclick="cacularPerimetroCuadrado()"
+                                class="resultado-button"
+                            >
+                                <span>Perimetro</span>
+                            </button>
+                            <button
+                                type="button"
+                                onclick="cacularAreaCuadrado()"
+                                class="resultado-button"
+                            >
+                                <span>Area</span>
+                            </button>
+                        </div>
+                    </label>
+                </form>
+                <p class="resultado" id="resultado-cuadrado"></p>
+            </section>
+            <section class="calculadora-cuadrado calculadora-container box3">
+                <h2 class="title-caculadora">Calculadora Cuadrado3</h2>
+                <form action="" method="post">
+                    <label for="lado-cuadrado" class="input-datos">
+                        <span>Lado en cm:</span>
+                        <input
+                            type="number"
+                            name="lado"
+                            id="lado-cuadrado"
+                            class="input-element"
+                            placeholder="Ingrese el lado"
+                        />
+                        <div class="buttons-container">
+                            <button
+                                type="button"
+                                onclick="cacularPerimetroCuadrado()"
+                                class="resultado-button"
+                            >
+                                <span>Perimetro</span>
+                            </button>
+                            <button
+                                type="button"
+                                onclick="cacularAreaCuadrado()"
+                                class="resultado-button"
+                            >
+                                <span>Area</span>
+                            </button>
+                        </div>
+                    </label>
+                </form>
+                <p class="resultado" id="resultado-cuadrado"></p>
+            </section>
+        </main>
+        <script src="./js/index.js"></script>
+    </body>
+</html>

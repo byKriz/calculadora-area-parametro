@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    background-color: #1a45fe;
+    font-size: 2rem;
+    font-family: "Press Start 2P", cursive;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2% 0;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    background-color: #f5d722;
+    /* color: white; */
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    /* color: white; */
+    text-align: center;
+}
+
+.main .calculadora-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* gap: 2%; */
+    width: 90%;
+    height: 33.33vh;
+    background-color: #e3e3e3;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+/* .main .calculadora-container .title-caculadora {
+    width: 80vw;
+} */
+
+.main .calculadora-container .input-datos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: auto;
+}
+
+.main .calculadora-container .input-datos .input-element {
+    width: 80%;
+}
+
+.main .calculadora-container .input-datos .buttons-container .resultado-button {
+    background-color: #f5d722;
+    padding: 5px 4px;
+}
+
+.main .calculadora-container .input-datos .buttons-container .resultado-button span{
+    font-family: "Press Start 2P", cursive;
+    font-size: 1rem;
+}
+
+.main .calculadora-container .resultado {
+    padding: 10px 0;
+}
