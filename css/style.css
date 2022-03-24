@@ -75,6 +75,7 @@ h1 {
 
 .main .calculadora-container .input-datos .buttons-container .resultado-button {
     background-color: #f5d722;
+    border-radius: 5px;
     padding: 5px 4px;
 }
 
