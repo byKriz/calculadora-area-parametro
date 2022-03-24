@@ -1,3 +1,14 @@
 .main .calculadora-container {
     width: 45%;
 }
+
+.main .box1, .main .box2{
+    width: 40%;
+    height: 80%;
+    order: 1;
+}
+
+.main .box3{
+    width: 85vw;
+    order: 2;
+}
